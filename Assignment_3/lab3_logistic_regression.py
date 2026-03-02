@@ -70,7 +70,7 @@ def predict_label(p, threshold=0.5):
 # This is useful when false positives are costly.
 
 
-# Logistic regression differs from the perceptron in how it interprets 
+# ."Logistic regression differs from the perceptron in how it interprets 
 # the output of the linear function. While both models compute the same linear score
 # z=w⋅x+b, the perceptron applies a hard step function that produces only 0 or 1,
 # making an abrupt decision. Logistic regression instead applies the sigmoid function, 
